@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.2b44aa04.css",
+    "main.js": "/Portfolio/static/js/main.568404c0.js",
+    "static/media/image.png": "/Portfolio/static/media/image.3c810ab910e3722a6abd.png",
+    "static/media/Sree.jpg": "/Portfolio/static/media/Sree.370366114b1559174ac2.jpg",
+    "index.html": "/Portfolio/index.html",
+    "main.2b44aa04.css.map": "/Portfolio/static/css/main.2b44aa04.css.map",
+    "main.568404c0.js.map": "/Portfolio/static/js/main.568404c0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2b44aa04.css",
+    "static/js/main.568404c0.js"
+  ]
+}
