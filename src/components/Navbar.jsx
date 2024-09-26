@@ -28,7 +28,7 @@ const Navbar = () => {
           <a class="nav-link" href="#"> <Link class="space" to='/skills' style={{textDecoration:'none'}}>Skills</Link></a>
         </li>
          <li class="nav-item">
-          <a class="nav-link" href="#"> <Link class="space" to='/projects'style={{textDecoration:'none'}}>Projects</Link></a>
+          <a class="nav-link" href="#"> <Link class="space" to='/education'style={{textDecoration:'none'}}>Education</Link></a>
           </li>
           <li class="nav-item">
           <a class="nav-link" href="#"> <Link class="space" to='/contact' style={{textDecoration:'none'}}>Contact</Link></a>

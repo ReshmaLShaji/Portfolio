@@ -1,0 +1,74 @@
+.education-section {
+    padding: 40px;
+    background-color: #0a0101;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 4rem;
+    color: hsl(58, 76%, 90%);
+    
+  }
+  
+  .education-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
+    padding-left: 180px;
+    
+  }
+  
+  .education-icon {
+    font-size: 2.5em;
+    color: #4a90e2;
+    margin-right: 20px;
+  }
+  
+  .education-content {
+    max-width: 600px;
+  }
+  
+  h3 {
+    font-size: 1.8em;
+    margin-bottom: 5px;
+    color: #d9fe05;
+  }
+  
+  .education-dates {
+    font-style: italic;
+    color: #e7f889;
+    font-size: 30px;
+  }
+  
+  .education-institution {
+    font-weight: bold;
+    margin: 5px 0;
+  }
+  
+  .education-description {
+    font-size: 1.2em;
+    color: #f5fae5;
+    line-height: 1.6;
+    font-size: 1.5rem;
+    padding-left: 90px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .education-item {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .education-icon {
+      margin-bottom: 10px;
+    }
+    .education-system{
+    }
+  }
+  

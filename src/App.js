@@ -3,9 +3,9 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Aboutme from'./components/Aboutme';
-import Projects from './components/Projects'
 import Skills from './components/Skills'
 import Contact from'./components/Contact';
+import Education from'./components/Education';
 
 import { Route, Routes } from 'react-router-dom';
 
@@ -17,9 +17,9 @@ function App() {
      <Routes>
     <Route path='/' element={<Home/>}/>
     <Route path='/aboutme' element={<Aboutme/>}/>
-    <Route path='/projects' element={<Projects/>}/>
     <Route path='/skills' element={<Skills/>}/>
     <Route path='/contact' element={<Contact/>}/>
+    <Route path='/Education' element={<Education/>}/>
     <Route path='*' element={<Home/>}/>
 
     </Routes>

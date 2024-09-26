@@ -10,6 +10,11 @@
          padding-left: 1rem;
        
     }
+    .bg-body-tertiary {
+        --bs-bg-opacity: 0;
+        
+        background-color: rgba(var(--bs-tertiary-bg-rgb), var(--bs-bg-opacity)) !important;
+    }
    .navbar-brand{
         padding: 1rem;
         margin:8px ;
@@ -22,6 +27,7 @@
     .nav-item{
         font-family:'Times New Roman', Times, serif;
         color: rgb(252, 252, 100);
+        font-size: 50px;
     }
     
     a{
@@ -35,9 +41,9 @@
     }
     .space{
         margin-left: 20px;
-        font-size: 21px;
+        font-size: 30px;
         margin-left: 10px;
-        color: darkkhaki;
+        color: yellow
     }
     span1{
       color:rgb(243, 243, 6);
