@@ -67,4 +67,24 @@ body{
   }
 
 
+  .resumes {
+    font-family: fantasy;
+    color: #f1f915;
+    
+}
+.btn {
+  padding: 10px 20px;
+  background-color: #5e5e0c;
+  color: rgb(245, 241, 241);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+button:hover {
+  background-color: #fcfcfc;
+}
+
   
