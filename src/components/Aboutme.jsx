@@ -1,22 +1,22 @@
 import React from 'react'
 import '../components/About.css'
-import pic from '../components/Sree.jpg'
+import pic from '../components/resh.png'
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap/dist/js/bootstrap.min.js'
+
 const Aboutme = () => {
   return (
-    <div>
+    <div className='whole'>
        <img src={pic} alt="profile" className='pic'/>
     <div className='about'>
     <span className='a'> About Me</span>
-    <p>Hello! I’m a Python full stack developer with a passion for creating beautiful and intuitive web applications. My studies have equipped me with a solid foundation in both development and design, and I’m excited to apply my knowledge in a professional environment.
-
-Creativity and problem-solving are my driving forces, and I thrive in collaborative settings where ideas come to life. I have proficiency in Python, Django, and front-end technologies like HTML, CSS, and JavaScript, enabling me to build visually appealing and user-friendly interfaces.
-
-As a dedicated learner, I keep myself updated on industry trends and best practices, always striving to enhance my skills and deliver high-quality results. As I embark on this career journey, I look forward to tackling new challenges and contributing to innovative projects.</p>
-
-
-<div><p>Thank you for visiting my portfolio!</p></div>
+    <p>Hi! I'm a passionate Full-Stack Developer with a deep interest in crafting efficient, scalable, and dynamic web applications. My expertise spans a variety of modern web technologies, including HTML, CSS, Bootstrap, JavaScript, and ReactJS on the front end, along with Python on the back end.I’m excited about continuous learning and exploring new technologies, and I’m always looking for opportunities to collaborate on innovative projects.</p>
+    <br />
+    <p>Thank you for visiting my portfolio!</p>
+    <p>Let’s build something amazing together!</p>
     </div>
     </div>
+   
    
   )
 }

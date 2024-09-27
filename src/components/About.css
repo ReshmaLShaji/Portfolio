@@ -1,65 +1,28 @@
-.nav{
+body{
 background-color: black;
 }
 
 .a{
     font-size:4rem ;
     font-family: 'Times New Roman', Times, serif;
-    color:rgb(247, 247, 194);
-    padding-left: -1px;
-    margin-right: 90px;
-}
-@media only screen and (max-width: 600px) {
+    color:rgb(220, 243, 12);
     
+}
+.about{
+    padding: 100px;
+    margin-top: -50px;
+}
+.pic{
+    height: 400px;
+    width: 220px;
+    border-radius:9%;
+}
 .about {
-    padding: 30px;
-    margin-left: -60px;
-    padding: 170px;
-    font-size: 25px;
-    color: white;
-    margin-top: -60px;
+    padding: 100px;
+    margin-top: -81px;
 }
-}
-.pic {
-    position: absolute;
-    top: 23rem;
-    right: 35px;
-    /* z-index: -1; */
-    object-fit: cover;
-    height: 50vh;
-}
-p {
-    margin-top: 0px;
-    margin-bottom: 0;
-    margin-right: 80px;
-    font-family:cursive;
-} */ 
-.about-section {
-    background-color: #f9f9f9;
-  }
-  
-  .about-section h2 {
-    font-size: 2.5rem;
-    font-weight: bold;
-    color: #333;
-  }
-  
-  .about-section p {
-    font-size: 1.2rem;
-    color: #555;
-  }
-  
-  .skills ul {
-    padding: 0;
-  }
-  
-  .skills li {
-    font-size: 1.5rem;
-    color: #333;
-  }
-  
-  .skills i {
-    margin-right: 8px;
-    color: #007bff; /* Bootstrap color for icons */
-  }
+/* @media only screen and (max-width: 600px) {
+} */
+    
+
   
