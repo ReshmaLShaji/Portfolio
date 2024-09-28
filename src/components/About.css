@@ -2,27 +2,22 @@ body{
 background-color: black;
 }
 
-.a{
-    font-size:4rem ;
-    font-family: 'Times New Roman', Times, serif;
-    color:rgb(220, 243, 12);
-    
-}
-.about{
-    padding: 100px;
-    margin-top: -50px;
-}
-.pic{
-    height: 400px;
-    width: 220px;
-    border-radius:9%;
-}
-.about {
-    padding: 100px;
-    margin-top: -81px;
-}
-/* @media only screen and (max-width: 600px) {
-} */
+
+.whole {
+    padding: 20px;
+  }
+  
+  .a {
+    font-size: 50px;
+    font-weight: bold;
+  }
+  
+  .pic {
+    max-width: 100%;
+    height: auto;
+  }
+
+  
     
 
   

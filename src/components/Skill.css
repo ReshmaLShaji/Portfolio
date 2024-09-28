@@ -39,12 +39,12 @@
     line-height: 1.5;
   }
    */
-   .card {
+   /* .card {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     display: flex;
     align-items: center;
     /* size: 46px; */
-    background-color: black;
+    /* background-color: black;
     border: 60px;
 
 }
@@ -71,4 +71,29 @@ h5{
   color: rgb(179, 179, 49);
 }
 .col{
-border-radius: 20px;}
+border-radius: 20px;} */ 
+.card {
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+  height: 180px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card-text {
+    font-size: 18px;
+    line-height: 1.2;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+
+}
+.col{
+ top: 70px;
+}
+
