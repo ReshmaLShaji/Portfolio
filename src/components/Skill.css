@@ -84,13 +84,19 @@ border-radius: 20px;} */
 
 .card-title {
   font-weight: bold;
+  color: rgb(241, 231, 85);
 }
 
+.card-body{
+  background-color: black;
+  display: flexbox;
+  
+}
 .card-text {
     font-size: 18px;
     line-height: 1.2;
     font-family: 'Times New Roman', Times, serif;
-    color: black;
+    color: rgb(253, 253, 251);
 
 }
 .col{

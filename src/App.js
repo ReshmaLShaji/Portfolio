@@ -6,8 +6,9 @@ import Aboutme from'./components/Aboutme';
 import Skills from './components/Skills'
 import Contact from'./components/Contact';
 import Education from'./components/Education';
-
+import Testimonials from'./components/Testimonials';
 import { Route, Routes } from 'react-router-dom';
+
 
 function App() {
   return (
@@ -20,6 +21,8 @@ function App() {
     <Route path='/skills' element={<Skills/>}/>
     <Route path='/contact' element={<Contact/>}/>
     <Route path='/Education' element={<Education/>}/>
+    <Route path='/Testimonials' element={<Testimonials/>}/>
+
     <Route path='*' element={<Home/>}/>
 
     </Routes>

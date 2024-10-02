@@ -262,7 +262,7 @@ const Skills = () => {
             <div className="card-body">
               <h5 className="card-title">JavaScript</h5>
               <p className="card-text">
-                JavaScript is a versatile language for building dynamic, interactive web applications. With skills in front-end and back-end development, I can create responsive interfaces and integrate APIs efficiently.
+                JavaScript is a versatile language for building dynamic, interactive web applications. With skills in front-end and back-end development, I can create responsive interfaces.
               </p>
             </div>
           </div>
