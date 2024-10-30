@@ -30,10 +30,7 @@ const Navbar = () => {
          <li class="nav-item">
           <a class="nav-link" href="#"> <Link class="space" to='/education'style={{textDecoration:'none'}}>Education</Link></a>
           </li>
-          <li class="nav-item">
-          <a class="nav-link" href="#"> <Link class="space" to='/testimonials' style={{textDecoration:'none'}}>Testimonials</Link></a>
-        </li>
-      
+          
           <li class="nav-item">
           <a class="nav-link" href="#"> <Link class="space" to='/contact' style={{textDecoration:'none'}}>Contact</Link></a>
         </li>
